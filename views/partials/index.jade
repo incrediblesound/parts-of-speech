@@ -1,0 +1,5 @@
+div.col-md-6
+  textarea(ng-model='text', rows='15',cols='30')
+div.col-md-6
+  div(ng-repeat='part in parts')
+    p <strong>{{part}}:</strong> {{searchPart(part)}}
