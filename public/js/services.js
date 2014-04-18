@@ -37,16 +37,6 @@ angular.module('myApp.services',[]).factory('services',['$http', function ($http
 		  }
     }
   };
-
-  factory.getDictionary = function (fn) {
-    $http.get('/dictionary/').success(function (data) {
-      return fn({
-        data: data
-      })
-    })
-  }
-
 return factory;
-
 }]);
 
