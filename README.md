@@ -5,7 +5,7 @@ This app uses the 230,000 entry parts-of-speech catalog from the [Moby Project](
 
 ### Running the App:
 
-To run locally you must have Node.js installed, then:
+To run locally you must have [Node.js](http://nodejs.org) installed, then:
 Clone the repo   
 run `npm install` to get the dependencies   
 Run the app:   
