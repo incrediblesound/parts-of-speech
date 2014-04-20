@@ -1,5 +1,6 @@
+h2(ng-show='visible') Parsing Dictionary...
 div.col-md-6
-  textarea(ng-model='text', rows='15',cols='30')
+  textarea(ng-model='text', ng-show='!visible', rows='15',cols='30')
 div.col-md-6
-  div(ng-repeat='part in parts')
+  div(ng-repeat='part in parts', ng-show='!visible')
     p <strong>{{part}}:</strong> {{searchPart(part)}}
