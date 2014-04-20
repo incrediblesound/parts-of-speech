@@ -15,9 +15,11 @@ and point your browser to http://localhost:3000
 
 ### Code:
 
-routes/index.js           --> The code for parsing the dictionary      
-public/js/app.js          --> Declares the top-level Angular app   
-public/js/controllers.js  --> Application controllers   
-public/js/services        --> Custom Angular services   
+routes/index.js                     --> The code for parsing the dictionary   
+views/index.jade                    --> Angular dependencies are loaded here   
+public/js/lib/angular/angular.js    --> Angular.js   
+public/js/app.js                    --> Declares the top-level Angular app   
+public/js/controllers.js            --> Application controllers   
+public/js/services                  --> Custom Angular services   
 
 
