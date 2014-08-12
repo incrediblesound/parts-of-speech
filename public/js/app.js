@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module('myApp', ['myApp.services']).
 	config(['$routeProvider','$locationProvider', function ($routeProvider,$locationProvider) {
     $routeProvider.
