@@ -3,8 +3,11 @@ extends layout
 block body
   div.container
     div.row
-      h1 Parts of Speech Analysis
-      hr
+      h1.pull-left Parts of Speech Analysis
+      a.pull-right(href='http://github.com/incrediblesound/parts-of-speech')
+        img(src='/images/Git.png' height='64' width='64')
+    hr
+    div.row
       div(ng-view)
 
   script(src='/js/lib/angular/angular.js')
